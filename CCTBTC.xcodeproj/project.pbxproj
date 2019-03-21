@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E480890221C59F800AE35FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E48088F221C59F800AE35FE /* AppDelegate.m */; };
+		0E480893221C59F800AE35FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E480892221C59F800AE35FE /* ViewController.m */; };
+		0E480896221C59F800AE35FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E480894221C59F800AE35FE /* Main.storyboard */; };
+		0E480898221C59F900AE35FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E480897221C59F900AE35FE /* Assets.xcassets */; };
+		0E48089B221C59F900AE35FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E480899221C59F900AE35FE /* LaunchScreen.storyboard */; };
+		0E48089E221C59F900AE35FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E48089D221C59F900AE35FE /* main.m */; };
+		0E4808F5221D1B8A00AE35FE /* CCTBTCLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4808A6221C5A2F00AE35FE /* CCTBTCLib.framework */; };
+		0E4808F6221D1B8A00AE35FE /* CCTBTCLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4808A6221C5A2F00AE35FE /* CCTBTCLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0E4808FA221D1CD100AE35FE /* BTCCreateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4808F9221D1CD100AE35FE /* BTCCreateVC.m */; };
+		0E4808FD221D1DF000AE35FE /* ImportByPK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4808FC221D1DF000AE35FE /* ImportByPK.m */; };
+		0E480903221D20E800AE35FE /* ImportByMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E480902221D20E800AE35FE /* ImportByMVC.m */; };
+		0E480906221D232200AE35FE /* BTCGetBalanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E480905221D232200AE35FE /* BTCGetBalanceVC.m */; };
+		0E480909221D271A00AE35FE /* GetTxlistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E480908221D271A00AE35FE /* GetTxlistVC.m */; };
+		0E48090C221D297C00AE35FE /* BTCTransferVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E48090B221D297C00AE35FE /* BTCTransferVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E4808F7221D1B8A00AE35FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0E4808F6221D1B8A00AE35FE /* CCTBTCLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E48088B221C59F800AE35FE /* CCTBTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCTBTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E48088E221C59F800AE35FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E48088F221C59F800AE35FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E480891221C59F800AE35FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E480892221C59F800AE35FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E480895221C59F800AE35FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E480897221C59F900AE35FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E48089A221C59F900AE35FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E48089C221C59F900AE35FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E48089D221C59F900AE35FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E4808A6221C5A2F00AE35FE /* CCTBTCLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CCTBTCLib.framework; sourceTree = "<group>"; };
+		0E4808F8221D1CD100AE35FE /* BTCCreateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCCreateVC.h; sourceTree = "<group>"; };
+		0E4808F9221D1CD100AE35FE /* BTCCreateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCCreateVC.m; sourceTree = "<group>"; };
+		0E4808FB221D1DF000AE35FE /* ImportByPK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportByPK.h; sourceTree = "<group>"; };
+		0E4808FC221D1DF000AE35FE /* ImportByPK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportByPK.m; sourceTree = "<group>"; };
+		0E480901221D20E800AE35FE /* ImportByMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportByMVC.h; sourceTree = "<group>"; };
+		0E480902221D20E800AE35FE /* ImportByMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportByMVC.m; sourceTree = "<group>"; };
+		0E480904221D232200AE35FE /* BTCGetBalanceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCGetBalanceVC.h; sourceTree = "<group>"; };
+		0E480905221D232200AE35FE /* BTCGetBalanceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCGetBalanceVC.m; sourceTree = "<group>"; };
+		0E480907221D271A00AE35FE /* GetTxlistVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetTxlistVC.h; sourceTree = "<group>"; };
+		0E480908221D271A00AE35FE /* GetTxlistVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetTxlistVC.m; sourceTree = "<group>"; };
+		0E48090A221D297C00AE35FE /* BTCTransferVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCTransferVC.h; sourceTree = "<group>"; };
+		0E48090B221D297C00AE35FE /* BTCTransferVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCTransferVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E480888221C59F800AE35FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4808F5221D1B8A00AE35FE /* CCTBTCLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E480882221C59F800AE35FE = {
+			isa = PBXGroup;
+			children = (
+				0E48088D221C59F800AE35FE /* CCTBTC */,
+				0E48088C221C59F800AE35FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E48088C221C59F800AE35FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E48088B221C59F800AE35FE /* CCTBTC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E48088D221C59F800AE35FE /* CCTBTC */ = {
+			isa = PBXGroup;
+			children = (
+				0E4808A5221C5A0C00AE35FE /* Core */,
+				0E4808A4221C5A0100AE35FE /* Others */,
+				0E480897221C59F900AE35FE /* Assets.xcassets */,
+				0E480899221C59F900AE35FE /* LaunchScreen.storyboard */,
+				0E48089C221C59F900AE35FE /* Info.plist */,
+				0E48089D221C59F900AE35FE /* main.m */,
+			);
+			path = CCTBTC;
+			sourceTree = "<group>";
+		};
+		0E4808A4221C5A0100AE35FE /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0E48088E221C59F800AE35FE /* AppDelegate.h */,
+				0E48088F221C59F800AE35FE /* AppDelegate.m */,
+				0E480891221C59F800AE35FE /* ViewController.h */,
+				0E480892221C59F800AE35FE /* ViewController.m */,
+				0E480894221C59F800AE35FE /* Main.storyboard */,
+				0E4808F8221D1CD100AE35FE /* BTCCreateVC.h */,
+				0E4808F9221D1CD100AE35FE /* BTCCreateVC.m */,
+				0E4808FB221D1DF000AE35FE /* ImportByPK.h */,
+				0E4808FC221D1DF000AE35FE /* ImportByPK.m */,
+				0E480901221D20E800AE35FE /* ImportByMVC.h */,
+				0E480902221D20E800AE35FE /* ImportByMVC.m */,
+				0E480904221D232200AE35FE /* BTCGetBalanceVC.h */,
+				0E480905221D232200AE35FE /* BTCGetBalanceVC.m */,
+				0E480907221D271A00AE35FE /* GetTxlistVC.h */,
+				0E480908221D271A00AE35FE /* GetTxlistVC.m */,
+				0E48090A221D297C00AE35FE /* BTCTransferVC.h */,
+				0E48090B221D297C00AE35FE /* BTCTransferVC.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		0E4808A5221C5A0C00AE35FE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0E4808A6221C5A2F00AE35FE /* CCTBTCLib.framework */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E48088A221C59F800AE35FE /* CCTBTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4808A1221C59F900AE35FE /* Build configuration list for PBXNativeTarget "CCTBTC" */;
+			buildPhases = (
+				0E480887221C59F800AE35FE /* Sources */,
+				0E480888221C59F800AE35FE /* Frameworks */,
+				0E480889221C59F800AE35FE /* Resources */,
+				0E4808F7221D1B8A00AE35FE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCTBTC;
+			productName = CCTBTC;
+			productReference = 0E48088B221C59F800AE35FE /* CCTBTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E480883221C59F800AE35FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Helios;
+				TargetAttributes = {
+					0E48088A221C59F800AE35FE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E480886221C59F800AE35FE /* Build configuration list for PBXProject "CCTBTC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E480882221C59F800AE35FE;
+			productRefGroup = 0E48088C221C59F800AE35FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E48088A221C59F800AE35FE /* CCTBTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E480889221C59F800AE35FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E48089B221C59F900AE35FE /* LaunchScreen.storyboard in Resources */,
+				0E480898221C59F900AE35FE /* Assets.xcassets in Resources */,
+				0E480896221C59F800AE35FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E480887221C59F800AE35FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E48090C221D297C00AE35FE /* BTCTransferVC.m in Sources */,
+				0E480893221C59F800AE35FE /* ViewController.m in Sources */,
+				0E480909221D271A00AE35FE /* GetTxlistVC.m in Sources */,
+				0E48089E221C59F900AE35FE /* main.m in Sources */,
+				0E480906221D232200AE35FE /* BTCGetBalanceVC.m in Sources */,
+				0E4808FD221D1DF000AE35FE /* ImportByPK.m in Sources */,
+				0E4808FA221D1CD100AE35FE /* BTCCreateVC.m in Sources */,
+				0E480903221D20E800AE35FE /* ImportByMVC.m in Sources */,
+				0E480890221C59F800AE35FE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E480894221C59F800AE35FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E480895221C59F800AE35FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E480899221C59F900AE35FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E48089A221C59F900AE35FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E48089F221C59F900AE35FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = mh_execute;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		0E4808A0221C59F900AE35FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = mh_execute;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		0E4808A2221C59F900AE35FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAL8V55YD4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CCTBTC/Core",
+				);
+				INFOPLIST_FILE = CCTBTC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kids-king.www.kids-king";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		0E4808A3221C59F900AE35FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAL8V55YD4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CCTBTC/Core",
+				);
+				INFOPLIST_FILE = CCTBTC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kids-king.www.kids-king";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E480886221C59F800AE35FE /* Build configuration list for PBXProject "CCTBTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E48089F221C59F900AE35FE /* Debug */,
+				0E4808A0221C59F900AE35FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4808A1221C59F900AE35FE /* Build configuration list for PBXNativeTarget "CCTBTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4808A2221C59F900AE35FE /* Debug */,
+				0E4808A3221C59F900AE35FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E480883221C59F800AE35FE /* Project object */;
+}

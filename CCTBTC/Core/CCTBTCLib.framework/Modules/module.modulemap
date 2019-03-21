@@ -1,0 +1,6 @@
+framework module CCTBTCLib {
+  umbrella header "CCTBTCLib.h"
+
+  export *
+  module * { export * }
+}
